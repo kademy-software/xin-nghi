@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="email.css" />
+    <title>Xin nghỉ</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Đơn xin nghỉ</h1>
+        <form action="https://formspree.io/f/xjvdvayr" method="post"> 
+            <input type="text" name="Name" placeholder="Họ và tên" required> 
+            <select name="Grade"> 
+                <option>-Chọn khối-</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <input type="text" name="Classroom" placeholder="Lớp" required> 
+            <input type="text" name="hs_id" placeholder="Mã số học sinh" required> 
+            <input type="date" name="sDate" placeholder="Ngày bắt đầu nghỉ" required>
+            <input type="date" name="eDate" placeholder="Ngày kết thúc nghỉ" required>
+            <textarea name="nguyen_nhan" placeholder="Lí do"></textarea>
+            <button type="submit">Gửi</button>
+        </form>    
+     </div>     
+</body>
+
+</html>
